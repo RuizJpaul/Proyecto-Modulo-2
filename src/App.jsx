@@ -48,7 +48,7 @@ export default function App(){
         >
           <Router>
             <Routes>
-              <Route path="/" element={<HomePage />} />
+              <Route path="/" element={<ContactsPage isLoading={isLoading} setIsLoading={setIsLoading} />} />
               <Route
                 path="/contacts"
                 element={<ContactsPage isLoading={isLoading} setIsLoading={setIsLoading} />}
